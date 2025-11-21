@@ -24,16 +24,22 @@ except ImportError:
 
 # ============================================================================
 # --- CONFIGURAÇÃO DO CLIENTE ---
-# ID e Estações do cliente "Dirceu Martins Comiran"
+# ID e Estações do cliente "Dorilino Prediger"
 # ============================================================================
-CLIENTE_ID = 2271718 # ID DO CLIENTE (GROWER_ID)
-CLIENTE_NOME = "Dirceu Martins Comiran" # NOME DO CLIENTE
+CLIENTE_ID = 4200429 # ID DO CLIENTE (GROWER_ID)
+CLIENTE_NOME = "Dorilino Prediger" # NOME DO CLIENTE
 ESTACOES_DO_CLIENTE = [
-    {'name': 'Portal da Amazonia', 'id_estacao': '58972', 'latitude': -14.0032, 'longitude': -59.2614},
-    {'name': 'Portal da Amazonia2', 'id_estacao': '65907', 'latitude': -14.0104, 'longitude': -59.2108},
+    {'name': 'TH 1/2', 'id_estacao': '81006', 'latitude': -13.1475, 'longitude': -55.3142},
+    {'name': 'TH 11/12', 'id_estacao': '81008', 'latitude': -13.1697, 'longitude': -55.3425},
+    {'name': 'São Jerônimo TH 4/5', 'id_estacao': '81011', 'latitude': -13.3952, 'longitude': -54.8069},
+    {'name': 'TH 13/14/15/16', 'id_estacao': '81010', 'latitude': -13.2032, 'longitude': -55.3460},
+    {'name': 'São Jerônimo TH 1/3', 'id_estacao': '81012', 'latitude': -13.3845, 'longitude': -54.8369},
+    {'name': 'São Thomé TH23', 'id_estacao': '81007', 'latitude': -13.3056, 'longitude': -55.4350},
+    {'name': 'São Thomé TH22', 'id_estacao': '81009', 'latitude': -13.3177, 'longitude': -55.4111},
+    {'name': 'TH 10/11', 'id_estacao': '81014', 'latitude': -13.1517, 'longitude': -55.3464},
 ]
 # Define quantos anos de dados históricos buscar
-ANOS_DE_HISTORICO = 2
+ANOS_DE_HISTORICO = 1
 
 # ============================================================================
 
@@ -1055,3 +1061,4 @@ if __name__ == "__main__":
         traceback.print_exc()
         # Faz o script falhar para que o GitHub Actions reporte o erro
         exit(1)
+
