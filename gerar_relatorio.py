@@ -39,7 +39,7 @@ ESTACOES_DO_CLIENTE = [
     {'name': 'TH 10/11', 'id_estacao': '81014', 'latitude': -13.1517, 'longitude': -55.3464},
 ]
 # Define quantos anos de dados históricos buscar
-ANOS_DE_HISTORICO = 1
+ANOS_DE_HISTORICO = 2
 
 # ============================================================================
 
@@ -1061,4 +1061,5 @@ if __name__ == "__main__":
         traceback.print_exc()
         # Faz o script falhar para que o GitHub Actions reporte o erro
         exit(1)
+
 
